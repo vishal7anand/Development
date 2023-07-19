@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .textarea {
+            background-color: tomato;
+            color: blue;
+            text-align: center;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+            width: 80%;
+            height: auto;
+        }
+
+        .good {
+            background-color: blue;
+            color: white;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="/action_page.php">
+        <p><label for="w3review">Review of W3Schools:</label></p>
+
+        <textarea name="comment" form="usrform">Enter Title here...</textarea><br />
+        <textarea rows="50%"
+            cols="100%">At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <p>Click the "Submit" button and the form-data will be sent to a page on the
+        server called "action_page.php".</p>
+
+</body>
+
+</html>
